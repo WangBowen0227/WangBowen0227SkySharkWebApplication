@@ -22,11 +22,11 @@ namespace WangBowen0227SkySharkWebApplication.NA
             string username, password, role;
             int selection;
             role = lstAddRole.SelectedValue;
-<<<<<<< Updated upstream
+
             username=txtAddUserName.Text;
-=======
+
             username=txtDelUserName.Text;
->>>>>>> Stashed changes
+
             password=txtAddPassword.Text;
             selection=lstAddRole.SelectedIndex;
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ARPDatabaseConnectionString"].ConnectionString);
