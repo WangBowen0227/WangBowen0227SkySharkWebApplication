@@ -42,7 +42,10 @@
                     <tr>
                         <td></td>
                         <td>
+<<<<<<< Updated upstream
                             <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+=======
+>>>>>>> Stashed changes
                         </td>
                         <td></td>
                     </tr>
