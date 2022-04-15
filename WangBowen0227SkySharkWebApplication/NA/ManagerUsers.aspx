@@ -15,11 +15,8 @@
             <DynamicMenuStyle BackColor="#F7F6F3" />
             <DynamicSelectedStyle BackColor="#5D7B9D" />
             <Items>
-<<<<<<< Updated upstream
                 <asp:MenuItem Selected="True" Text="Manage Users" Value="Manage Users"></asp:MenuItem>
                 <asp:MenuItem Text="Manage Database" Value="Manage Database" NavigateUrl="~/NA/ManageDatabase.aspx"></asp:MenuItem>
-=======
->>>>>>> Stashed changes
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -52,7 +49,6 @@
                 </tr>
 
                 <tr>
-<<<<<<< Updated upstream
                     <td class="auto-style1">
                         <asp:Label ID="Label1" runat="server" Text="Username"></asp:Label>
                     </td>
@@ -63,12 +59,12 @@
                         <asp:Label ID="Label3" runat="server" Text="Delete User"></asp:Label>
                     </td>
                     <td class="auto-style1">
-=======
+
                     </td>
                     </td>
                         <asp:Label ID="Label3" runat="server" Text="Delete User"></asp:Label>
                     </td>
->>>>>>> Stashed changes
+
                         <asp:TextBox ID="txtDelUserName" runat="server"></asp:TextBox>
                     </td>
                 </tr>
@@ -81,10 +77,9 @@
                     </td>
                     <td></td>
                     <td>
-<<<<<<< Updated upstream
+
                         <asp:Button ID="btnDelDelete" runat="server" Text="Delete" OnClick="btnDelDelete_Click" />
-=======
->>>>>>> Stashed changes
+
                     </td>
                 </tr>
                 <tr>
@@ -114,10 +109,9 @@
                 <tr>
                     <td></td>
                     <td>
-<<<<<<< Updated upstream
+
                         <asp:Button ID="btnAddSubmit" runat="server" Text="Submit" OnClick="btnAddSubmit_Click" />
-=======
->>>>>>> Stashed changes
+
                     </td>
                     <td></td>
                     <td></td>
