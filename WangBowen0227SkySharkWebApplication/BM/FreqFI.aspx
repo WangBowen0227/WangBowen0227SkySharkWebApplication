@@ -13,7 +13,7 @@
                 <asp:MenuItem NavigateUrl="~/BM/AddFI.aspx" Text="Add Flight" Value="Add Flight"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="~/BM/RequestID.aspx" Text="Request ID" Value="Request ID"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="~/BM/Reports.aspx" Text="Reports" Value="Reports"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/FreqFI.aspx" Text="Frequent Fliers" Value="Frequent Fliers"  Selected="True"></asp:MenuItem>
+                <asp:MenuItem Text="Frequent Fliers" Value="Frequent Fliers"  Selected="True"></asp:MenuItem>
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -37,33 +37,55 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>text1<asp:DropDownList ID="DropDownList1" runat="server">
+                    <td colspan="3">
+                        <asp:Label ID="lblMessage" runat="server" ForeColor="Red" Font-Bold="true" Text=""></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>Total number for times follown<asp:DropDownList ID="listTimeFollown" runat="server">
+                        <asp:ListItem>1</asp:ListItem>
+                        <asp:ListItem>2</asp:ListItem>
+                        <asp:ListItem>3</asp:ListItem>
+                        <asp:ListItem>4</asp:ListItem>
+                        <asp:ListItem>5</asp:ListItem>
+                        <asp:ListItem>6</asp:ListItem>
+                        <asp:ListItem>7</asp:ListItem>
+                        <asp:ListItem>8</asp:ListItem>
+                        <asp:ListItem>9</asp:ListItem>
+                        <asp:ListItem>10</asp:ListItem>
+                        <asp:ListItem></asp:ListItem>
                         </asp:DropDownList>
                     </td>
-                    <td>Text2<asp:DropDownList ID="DropDownList2" runat="server">
+                    <td>Applicable dicount percentage<asp:DropDownList ID="lstDisc1" runat="server">
+                        <asp:ListItem>5</asp:ListItem>
+                        <asp:ListItem>10</asp:ListItem>
+                        <asp:ListItem>15</asp:ListItem>
+                        <asp:ListItem>20</asp:ListItem>
+                        <asp:ListItem Value="25"></asp:ListItem>
                         </asp:DropDownList>
-                        Text3</td>
+                        </td>
                     <td>
-                        <asp:DropDownList ID="DropDownList3" runat="server">
-                        </asp:DropDownList>
+                        <asp:Button ID="Button1" runat="server" Text="add" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
-                    <td>text1<asp:DropDownList ID="DropDownList4" runat="server">
+                    <td>Customer who have paid fare<asp:TextBox ID="txtFare" runat="server"></asp:TextBox>
+                    </td>
+                    <td>Customer who have paid fare<asp:DropDownList ID="lstDisc2" runat="server">
+                        <asp:ListItem>5</asp:ListItem>
+                        <asp:ListItem>10</asp:ListItem>
+                        <asp:ListItem>15</asp:ListItem>
+                        <asp:ListItem>20</asp:ListItem>
+                        <asp:ListItem>25</asp:ListItem>
                         </asp:DropDownList>
                     </td>
-                    <td>Text2<asp:TextBox ID="TextBox1" runat="server" Width="71px"></asp:TextBox>
-                        Text3</td>
                     <td>
-                        <asp:DropDownList ID="DropDownList6" runat="server">
-                        </asp:DropDownList>
+                        <asp:Button ID="Button2" runat="server" Text="add" OnClick="Button2_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Button" Width="179px" />
-                    </td>
+                        &nbsp;</td>
                     <td></td>
                 </tr>
                 <tr>

@@ -61,14 +61,9 @@
                     </td>
                     <td class="auto-style1">
 
-                    </td>
-                    </td>
-                    <td>
-                       
-                    </td>
-
-                        <asp:TextBox ID="txtDelUserName" runat="server"></asp:TextBox>
-                   </td>
+                    
+                    <asp:TextBox ID="txtDelUserName" runat="server"></asp:TextBox>
+     </td>
                 </tr>
                 <tr>
                     <td>

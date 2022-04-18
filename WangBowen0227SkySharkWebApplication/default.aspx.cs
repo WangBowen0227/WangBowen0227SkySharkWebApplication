@@ -61,7 +61,10 @@ namespace WangBowen0227SkySharkWebApplication
                         case "LOB":
                             Response.Redirect(".\\LOB\\CrateRes.aspx");
                             break;
-                    }
+                        case "NA":
+                            Response.Redirect(".\\LOB\\ManageUsers.aspx");
+                            break;   
+                        }
                 }
                 else
                 {
