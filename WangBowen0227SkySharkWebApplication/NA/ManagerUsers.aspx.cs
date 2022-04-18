@@ -26,7 +26,6 @@ namespace WangBowen0227SkySharkWebApplication.NA
             username=txtAddUserName.Text;
 
             username=txtDelUserName.Text;
-
             password=txtAddPassword.Text;
             selection=lstAddRole.SelectedIndex;
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ARPDatabaseConnectionString"].ConnectionString);

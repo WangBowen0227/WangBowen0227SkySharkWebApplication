@@ -17,6 +17,7 @@
             <Items>
                 <asp:MenuItem Selected="True" Text="Manage Users" Value="Manage Users"></asp:MenuItem>
                 <asp:MenuItem Text="Manage Database" Value="Manage Database" NavigateUrl="~/NA/ManageDatabase.aspx"></asp:MenuItem>
+
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -62,11 +63,12 @@
 
                     </td>
                     </td>
-                        <asp:Label ID="Label3" runat="server" Text="Delete User"></asp:Label>
+                    <td>
+                       
                     </td>
 
                         <asp:TextBox ID="txtDelUserName" runat="server"></asp:TextBox>
-                    </td>
+                   </td>
                 </tr>
                 <tr>
                     <td>
@@ -80,7 +82,8 @@
 
                         <asp:Button ID="btnDelDelete" runat="server" Text="Delete" OnClick="btnDelDelete_Click" />
 
-                    </td>
+
+                   </td>
                 </tr>
                 <tr>
                     <td>
@@ -112,7 +115,8 @@
 
                         <asp:Button ID="btnAddSubmit" runat="server" Text="Submit" OnClick="btnAddSubmit_Click" />
 
-                    </td>
+
+                   </td>
                     <td></td>
                     <td></td>
                 </tr>
