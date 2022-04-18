@@ -14,7 +14,6 @@ namespace WangBowen0227SkySharkWebApplication.BM
     public partial class AddFI
     {
 
-        /// <summary>
         /// form1 控件。
         /// </summary>
         /// <remarks>

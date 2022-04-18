@@ -33,7 +33,7 @@ namespace WangBowen0227SkySharkWebApplication.BM
                 }
             }
             TimeSpan deptime, arrtime;
-            String DepDateTime, ArrDatetime;
+            String DepDateTime, ArrDatetime;//end
             try
             {
                 deptime = Convert.ToDateTime(txtDepartureTime.Text).TimeOfDay;

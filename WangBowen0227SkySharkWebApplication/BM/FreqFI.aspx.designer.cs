@@ -14,7 +14,7 @@ namespace WangBowen0227SkySharkWebApplication.BM
     public partial class FreqFI
     {
 
-        /// <summary>
+
         /// form1 控件。
         /// </summary>
         /// <remarks>
