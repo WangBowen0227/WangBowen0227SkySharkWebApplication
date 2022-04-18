@@ -41,7 +41,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Generate a flight usage report for all flights flown by the airline"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Generate" BackColor="Silver" BorderColor="Blue"/>
+                        <asp:Button ID="Button1" runat="server" Text=" Flight usage Report" BackColor="Silver" BorderColor="Blue" OnClick="Button1_Click"/>
                     </td>
                     <td></td>
                 </tr>
@@ -50,7 +50,7 @@
                         <asp:Label ID="Label3" runat="server" Text="Generate a customer affinity report for top 100 customers"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" Text="Generate" BackColor="Silver" BorderColor="Blue"/>
+                        <asp:Button ID="Button2" runat="server" Text="Generate customer affinity report" BackColor="Silver" BorderColor="Blue" OnClick="Button2_Click"/>
                     </td>
                     <td></td>
                 </tr>
@@ -76,10 +76,11 @@
                             <asp:ListItem>2003</asp:ListItem>
                             <asp:ListItem>2004</asp:ListItem>
                             <asp:ListItem>2005</asp:ListItem>
+                            <asp:ListItem>2022</asp:ListItem>
                         </asp:ListBox>
                     </td>
                     <td>
-                        <asp:Button ID="Button3" runat="server" Text="Generate" BackColor="Silver" BorderColor="Blue"/>
+                        <asp:Button ID="Button3" runat="server" Text="Generate revenue report" BackColor="Silver" BorderColor="Blue" OnClick="Button3_Click"/>
                     </td>
                     <td></td>
                 </tr>
