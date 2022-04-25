@@ -46,6 +46,10 @@
                 <WizardSteps>
                     <asp:WizardStep ID="WizardStep1" runat="server" Title="Query Flight Status">
                         <table>
+                <tr>
+                      <td colspan="2">
+                      <asp:Label ID="lblMessage" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label></td>
+                </tr>
                             <tr>
                                 <td>
                                     <asp:Label ID="Label1" runat="server" Text="Flight Number"></asp:Label></td>
@@ -74,7 +78,7 @@
                             <tr>
                                 <td></td>
                                 <td>
-                                    <asp:Button ID="btnFStatSubmit" runat="server" Text="Submit" /></td>
+                                    <asp:Button ID="btnFStatSubmit" runat="server" Text="Submit" OnClick="btnFStatSubmit_Click" /></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -93,6 +97,10 @@
                                 <td></td>
                             </tr>
                             <tr>
+                      <td colspan="2">
+                      <asp:Label ID="lblTicketStatus" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label></td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <asp:Label ID="Label5" runat="server" Text="Ticket No"></asp:Label></td>
                                 <td>
@@ -102,7 +110,7 @@
                             <tr>
                                 <td></td>
                                 <td>
-                                    <asp:Button ID="btnTStatSubmit" runat="server" Text="Submit" /></td>
+                                    <asp:Button ID="btnTStatSubmit" runat="server" Text="Submit" OnClick="btnTStatSubmit_Click" /></td>
                                 <td></td>
                             </tr>
                             <tr>

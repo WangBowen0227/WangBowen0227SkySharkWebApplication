@@ -37,6 +37,10 @@
                     </td>
                 </tr>
                 <tr>
+                      <td colspan="2">
+                      <asp:Label ID="lblMessage" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label></td>
+                </tr>
+                <tr>
                     <td>
                         <asp:Label ID="Label1" runat="server" Text="Ticket No"></asp:Label></td>
                     <td>
@@ -49,14 +53,13 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="btnConfirm" runat="server" Text="Confirm Ticket" />
+                        <asp:Button ID="btnConfirm" runat="server" Text="Confirm Ticket" OnClick="btnConfirm_Click" />
                     </td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                      <td colspan="2">
+                      <asp:Label ID="lblDetails" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label></td>
                 </tr>
             </table>
         </div>
